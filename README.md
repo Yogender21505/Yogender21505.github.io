@@ -17,8 +17,7 @@
     <li>CSS</li>
   </ul>
     </div>
-    
-        <div>
+    <div>
   <ul>
     <li>JavaScript</li>
     <li>MySql</li>
@@ -27,8 +26,7 @@
   </div>
       <h4>Social Media</h4> 
   Catch me on Twitter - <a href="https://twitter.com/Yogende65938869">@YogenderKumar</a>
-  Linkedin -<a href="https://www.linkedin.com/in/yogender-kumar-b0448b216/">Yogender@linkedin</a>
-  
+  Linkedin -<a href="https://www.linkedin.com/in/yogender-kumar-b0448b216/">Yogender@linkedin</a> 
 </div>  
   
 
