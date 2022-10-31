@@ -3,7 +3,7 @@
   <h3>Personal Profile</h3>
 <a href="https://ibb.co/dPpHf36"><img src="https://i.ibb.co/VgCkLhD/image.jpg" alt="Avatar" border="0" class="center"></a>
   <h4>About Me</h4>
-  <p>Hi, I'm Yogender Kumar,I am Computer Science Engineering Student from IIIT Delhi!,Apart from this i am part time App Developer .I have a huge passion for web-development and programming. I love to learn and thrive from challenges.</p>
+  <p>Hi, I'm Yogender Kumar,I am Computer Science Engineering Student at IIIT Delhi!,Apart from this i am part time App Developer .I have a huge passion for web-development and programming. I love to learn and thrive from challenges.</p>
   <h4>Currently:- I am Doing App project Based on Machine Learning and App (Kotlin) specialize in Prediction of statistics<h4>
   <h4>My Skills</h4> 
   <div class="listFlex">
