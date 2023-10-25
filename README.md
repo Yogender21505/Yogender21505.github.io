@@ -1,32 +1,213 @@
-<div class="container">
-  <h1>Yogender Kumar</h1>
-  <h3>Personal Profile</h3>
-<a href="https://ibb.co/dPpHf36"><img src="https://i.ibb.co/VgCkLhD/image.jpg" alt="Avatar" border="0" class="center"></a>
-  <h4>About Me</h4>
-  <p>Hi, I'm Yogender Kumar,I am Computer Science Engineering Student at IIIT Delhi!,Apart from this i am part time App Developer .I have a huge passion for web-development and programming. I love to learn and thrive from challenges.</p>
-  <h4>Currently:- I am Doing App project Based on Machine Learning and App (Kotlin) specialize in Prediction of statistics<h4>
-  <h4>My Skills</h4> 
-  <div class="listFlex">
-    <div>
-  <ul>
-    <li>Java</li>
-    <li>C/C++</li>
-    <li>Pyhton</li>
-    <li>Kotlin</li>
-    <li>HTML</li>
-    <li>CSS</li>
-  </ul>
-    </div>
-    <div>
-  <ul>
-    <li>JavaScript</li>
-    <li>MySql</li>
-  </ul>
-    </div>
-  </div>
-      <h4>Social Media</h4> 
-  Catch me on Twitter - <a href="https://twitter.com/Yogende65938869">@YogenderKumar</a>
-  Linkedin -<a href="https://www.linkedin.com/in/yogender-kumar-b0448b216/">Yogender@linkedin</a> 
-</div>  
-  
+<!DOCTYPE html>
+<html>
+ <title>Yogender's_portfolio</title>
+      <style>
+            * {
+                  
+                  margin: 0;
+                  padding: 0;
+                  box-sizing: border-box;
 
+            }
+
+            body {
+                  background-color: #d8cece;
+            }
+            .card1 {
+                 
+                  background-color: #fff;
+                  border-radius: 15px;
+                  border: 1px solid rgb(179, 168, 168);
+                  margin: 60px;
+            }
+          .card1:hover{
+                 transform: scale(1.05);
+              box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+              border-color:black;
+            }
+            .card {
+                 width: 385px;
+                  background-color: #fff;
+                  border-radius: 15px;
+                  border: 1px solid rgb(179, 168, 168);
+                  margin: 60px;
+            }
+            .card:hover{
+                 transform: scale(1.05);
+              box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+              border-color:grey;
+            }
+            .card1 img {
+                  height: 200px;
+                  border-radius: 10px;
+                  margin-left: ;
+                  margin-right: 2px;
+                  margin-top: 2px;
+                  margin-bottom: 1px;
+            }
+            .card img {
+                  height: 200px;
+                  
+                  border-radius: 10px;
+                  margin-left: 2px;
+                  margin-right: 2px;
+                  margin-top: 2px;
+                  margin-bottom: auto;
+            }
+            .btn{
+                  margin-left: 29px;
+                  margin-bottom: 17px;
+              
+                
+            }
+            .btn button{
+                  background-color: white;
+                  border-radius: 10px;
+                  border: 0.5px solid rgb(179, 168, 168)
+                  ;
+                  padding:4px 8px;
+                  cursor: pointer;
+            }
+            .heading{
+                  margin-left: 9px;
+            }
+            .heading h2{
+                  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .heading p{
+                  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                  color: #ada5a5;
+                  line-height: 19px;
+                  margin-top: 10px
+            }
+            .btn2{
+                  margin: 40px 110px;
+                  
+            }
+            .btn2 a{
+                  background-color: #d8cece;
+                  padding:8px 10px;
+                  border-radius: 20px;
+                  text-decoration: none;
+                  color: blueviolet;
+                  font-weight: 600;
+                  
+            }
+        .hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
+      </style>
+
+<body>
+  <center>
+    <div class="card1">
+        
+            <img src="https://i.ibb.co/MgxhTqQ/myphoto.png"
+                  alt="">
+            <div class="btn">
+              
+                   <button>Android Development</button>
+                  <button>Frontend and Backend Development</button>
+                  <button>Data Engineer</button>
+            </div>
+            <div class="heading">
+                  <h2>Undergraduate Researcher</h2>
+                  <p>I, Yogender Kumar, completed my 2nd year of Btech in Computer Science and Biosciences from IIIT Delhi. This journey has taught me a lot. I got into Developing, Machine Learning, and Programming during my college journey. I am Dedicated to my work and responsibilities and always find an opportunity to learn new things. By joining your organization, I want to exponentially increase my learning and experience graph.</p>
+            </div>
+            <div class="btn2">
+                  <a href="https://www.linkedin.com/in/yogender-kumar-b0448b216/">Linkedin</a>
+                                <span title="Kumaryogender2004@gmail.com"><a href="#">Gmail</a>
+ </span>
+              <a            href="#">Resume</a>
+                            <a            href="https://leetcode.com/Yogender_K26/">Leetcode</a>
+                            <a            href="https://auth.geeksforgeeks.org/user/kumaryogender2004/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user">GFG</a>
+                            <a            href="https://codeforces.com/profile/Yogender_2021505">Codeforces</a>
+            </div>
+      </div>
+     <div class="card">
+        
+            <img src="https://i.ibb.co/xLZdZ6p/A.png"
+                  alt="">
+            <div class="btn">
+                  <button>Libgdx</button>
+                  <button>Java</button>
+                   <button>Tiled</button>
+                  <button>Intellij</button>
+            </div>
+            <div class="heading">
+                  <h2>TankStar Action Game</h2>
+                  <p>Developed a 2D game inspired by the popular game Tank Stars. The game features a range
+of weapons and tanks, with save and load functionality, and a multiplayer mode.</p>
+            </div>
+            <div class="btn2">
+                  <a href="https://github.com/Yogender21505/TankStars_2/blob/main/StaticGUI.pdf">Code Base</a>
+            </div>
+      </div>
+      <div class="card">
+        
+            <img src="https://i.ibb.co/X5rhR68/menu.jpg"
+                  alt="">
+            <div class="btn">
+         
+                  <button>Python</button>
+                  <button>Flask</button>
+                   <button>MySql</button>
+                  <button>Javascript</button>
+            </div>
+            <div class="heading">
+                  <h2>Apnabazzzar</h2>
+              <h4>(Online Retail System)</h4>
+                  <p>Developed a web app specifically Online Retail System. The web app boasts various
+unique and exclusive features like User and Admin stake holders, options to create your order
+and apply Discount voucher options, brand categories, product lists, etc. to enhance user
+experience and productivity</p>
+            </div>
+            <div class="btn2">
+                  <a href="https://github.com/Yogender21505/ApnaBazzzar/blob/main/Images/adminlogin.pdf">Code Base</a>
+            </div>
+      </div>
+    <div class="card">
+        
+            <img src="https://i.ibb.co/N9cR98Z/Screenshot-2023-10-25-204339.png"
+                  alt="">
+            <div class="btn">
+                  <button>Kotlin</button>
+                  <button>Android Studio</button>
+                  <button>XML</button>
+            </div>
+            <div class="heading">
+                  <h2>Recipe Android App</h2>
+                  <p>Designed and developed an exhilarating.The App takes Images of the recipe and their deiscription and stores them locally with Delete, Add, and Search functionality.</p>
+            </div>
+            <div class="btn2">
+                  <a href="https://github.com/Yogender21505/Recipe-APP">Code Base</a>
+            </div>
+      </div>
+       <div class="card">
+        
+            <img src="https://i.ibb.co/Rzb6jcd/Graph.png"
+                  alt="">
+            <div class="btn">
+                  <button>Python</button>
+                  <button>Sklearn</button>
+                  <button>Jupyter</button>
+            </div>
+            <div class="heading">
+                  <h2>Breast Cancer Survival Rate</h2>
+              <h4>(Machine Learning Model)</h4>
+                  <p>Developed a decision tree regression model to predict the survivability rate of patients based
+on their age, time recurrence, and the therapies they went through with 92 percent accuracy.</p>
+            </div>
+            <div class="btn2">
+                  <a href="https://github.com/Yogender21505/PB">Code Base</a>
+            </div>
+      </div>
+
+  </center>
+     
+</body>
