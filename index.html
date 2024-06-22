@@ -80,12 +80,13 @@
         }
 
         .container {
-            max-width: 1000px;
+            max-width: 1400px;
             padding: 20px;
             margin: 0 auto;
-            margin-top: 100px; /* Space below topbar */
+            margin-top: 120px;
             display: flex;
             flex-wrap: wrap;
+            gap: 20px;
             justify-content: center;
         }
 
@@ -203,7 +204,7 @@
             <a href="https://codeforces.com/profile/Yogender_2021505" target="_blank"><i class="fas fa-bolt"></i></a>
         </div>
     </div>
-    <div class="sidebar">
+<!--     <div class="sidebar">
         <h2>About Me</h2>
         <p>I, Yogender Kumar, completed my 3rd year of Btech in Computer Science and Biosciences from IIIT Delhi. This journey has taught me a lot. I got into Developments, Machine Learning, and Programming during my college journey. I am dedicated to my work and responsibilities and always find opportunities to learn new things. By joining your organization, I want to exponentially increase my learning and experience.</p>
         <h1>Experience</h1>
@@ -213,7 +214,7 @@
         <a href="https://leetcode.com/Yogender_K26/">Leetcode</a>
         <a href="https://auth.geeksforgeeks.org/user/kumaryogender2004/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user">GFG</a>
         <a href="https://codeforces.com/profile/Yogender_2021505">Codeforces</a> -->
-    </div>
+    </div> -->
     <div class="container">
         <div class="card">
             <img src="https://i.ibb.co/xLZdZ6p/A.png" alt="TankStar Action Game" class="static-img">
@@ -290,16 +291,16 @@
 
     <script>
         // Toggle sidebar visibility on small screens
-        const topbar = document.querySelector('.topbar');
-        const sidebar = document.querySelector('.sidebar');
+        // const topbar = document.querySelector('.topbar');
+        // const sidebar = document.querySelector('.sidebar');
 
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > topbar.offsetHeight) {
-                sidebar.classList.add('active');
-            } else {
-                sidebar.classList.remove('active');
-            }
-        });
+        // window.addEventListener('scroll', () => {
+        //     if (window.scrollY > topbar.offsetHeight) {
+        //         sidebar.classList.add('active');
+        //     } else {
+        //         sidebar.classList.remove('active');
+        //     }
+        // });
     </script>
 </body>
 </html>
