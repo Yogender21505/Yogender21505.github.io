@@ -27,15 +27,10 @@
             color: #fff;
             display: flex;
             flex-direction: column;
-            padding: 20px;
+            padding: 10px;
             height: 100vh;
             position: fixed;
             z-index: 2;
-            transition: transform 0.3s ease-in-out;
-        }
-
-        .sidebar.closed {
-            transform: translateX(-250px);
         }
 
         .sidebar h2, .sidebar p {
@@ -46,15 +41,6 @@
             color: #007BFF;
             text-decoration: none;
             margin-bottom: 10px;
-        }
-
-        .close-btn {
-            background-color: #444;
-            color: #fff;
-            border: none;
-            font-size: 1.2em;
-            cursor: pointer;
-            align-self: flex-end;
         }
 
         .topbar {
@@ -69,12 +55,6 @@
             left: 250px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             z-index: 1;
-            transition: left 0.3s ease-in-out;
-        }
-
-        .topbar.sidebar-closed {
-            left: 0;
-            width: 100%;
         }
 
         .topbar img {
@@ -113,11 +93,6 @@
             gap: 20px;
             margin-left: 300px;
             z-index: 0;
-            transition: margin-left 0.3s ease-in-out;
-        }
-
-        .container.sidebar-closed {
-            margin-left: 50px;
         }
 
         .card {
@@ -231,25 +206,11 @@
             .container {
                 margin-left: 220px;
             }
-
-            .sidebar.closed {
-                transform: translateX(-200px);
-            }
-
-            .topbar.sidebar-closed {
-                left: 0;
-                width: 100%;
-            }
-
-            .container.sidebar-closed {
-                margin-left: 20px;
-            }
         }
     </style>
 </head>
 <body>
     <div class="sidebar">
-        <button class="close-btn">&times;</button>
         <h2>About Me</h2>
         <p>I, Yogender Kumar, completed my 2nd year of Btech in Computer Science and Biosciences from IIIT Delhi. This journey has taught me a lot. I got into Developing, Machine Learning, and Programming during my college journey. I am dedicated to my work and responsibilities and always find opportunities to learn new things. By joining your organization, I want to exponentially increase my learning and experience graph.</p>
         <a href="https://www.linkedin.com/in/yogender-kumar-b0448b216/">LinkedIn</a>
@@ -291,6 +252,7 @@
                 <a href="https://github.com/Yogender21505/TankStars_2/blob/main/StaticGUI.pdf">Code Base</a>
             </div>
         </div>
+
         <div class="card">
             <img src="https://i.ibb.co/X5rhR68/menu.jpg" alt="Apnabazzzar" class="static-img">
             <img src="your-gif-url2.gif" alt="Apnabazzzar GIF" class="gif">
@@ -309,6 +271,7 @@
                 <a href="https://github.com/Yogender21505/ApnaBazzzar/blob/main/Images/adminlogin.pdf">Code Base</a>
             </div>
         </div>
+
         <div class="card">
             <img src="https://i.ibb.co/N9cR98Z/Screenshot-2023-10-25-204339.png" alt="Recipe Android App" class="static-img">
             <img src="your-gif-url3.gif" alt="Recipe Android App GIF" class="gif">
@@ -325,6 +288,7 @@
                 <a href="https://github.com/Yogender21505/Recipe-APP">Code Base</a>
             </div>
         </div>
+
         <div class="card">
             <img src="https://i.ibb.co/Rzb6jcd/Graph.png" alt="Breast Cancer Survival Rate" class="static-img">
             <img src="your-gif-url4.gif" alt="Breast Cancer Survival Rate GIF" class="gif">
@@ -343,12 +307,5 @@
             </div>
         </div>
     </div>
-    <script>
-        document.querySelector('.close-btn').addEventListener('click', function() {
-            document.querySelector('.sidebar').classList.toggle('closed');
-            document.querySelector('.topbar').classList.toggle('sidebar-closed');
-            document.querySelector('.container').classList.toggle('sidebar-closed');
-        });
-    </script>
 </body>
 </html>
